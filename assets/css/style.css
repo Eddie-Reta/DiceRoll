@@ -1,0 +1,48 @@
+html{
+    height: 100%;
+}
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: rgb(58, 58, 58) ;
+    color: rgb(0, 205, 108);
+}
+.fluid-container {
+    height: 70%;
+    width: 80%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading {
+    font-family: 'Lobster', cursive;
+    font-size: 90px;
+}
+.playerTitle {
+    width: 75%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    font-family: 'Indie Flower', cursive;
+    font-size: 35px;
+}
+.dices {
+    width: 75%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+}
+.rollDice{
+    height: 10%;
+    width: 20%;
+    margin-top: 5%;
+    cursor: pointer;
+}
+.rollDice {
+    border-radius: 1.5%;
+    font-size: 30px;
+}
